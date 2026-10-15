@@ -187,11 +187,24 @@ def check_memory(mem, paper_path):
             if w > 30:
                 tip("L3: больше 30 слов")
 
-    # статья
-    if paper_path is None:
-        cands = sorted(glob.glob(os.path.join(os.path.dirname(os.path.abspath(mem)), "paper", "*.pdf")))
-        paper_path = cands[0] if cands else None
-    pages = pdf_pages(paper_path)
+    # статья: если PDF не указан явно и в paper/ их несколько,
+    # берём тот, в котором находится больше всего цитат из таблицы сверки
+    cands = [paper_path] if isinstance(paper_path, str) else list(paper_path or [])
+    pages, chosen, best = None, None, -1
+    quotes = [fragments(r[3].strip().strip('"«»“”„')) for r in rows if len(r) >= 4]
+    for c in cands:
+        pg = pdf_pages(c)
+        if pg is None:
+            continue
+        full = norm("".join(pg))
+        hits = sum(1 for q in quotes if q and found_in(q, full))
+        if hits > best:
+            pages, chosen, best = pg, c, hits
+    if len(cands) > 1 and chosen:
+        tip(f"в paper/ несколько PDF ({len(cands)}); взята статья {os.path.basename(chosen)}"
+            f" — в ней найдено цитат: {best} из {len(quotes)}. Другую можно указать через --paper")
+    elif chosen:
+        print(f"        статья: {os.path.basename(chosen)}")
     if pages is None:
         tip("статья не найдена или не читается (paper/*.pdf): цитаты не проверены автоматически")
     elif l1 and l2 and l3:
@@ -323,10 +336,7 @@ def main():
     a = ap.parse_args()
     proj = a.project
     mem = a.memory or os.path.join(proj, "memory")
-    paper = a.paper
-    if paper is None:
-        cands = sorted(glob.glob(os.path.join(proj, "paper", "*.pdf")))
-        paper = cands[0] if cands else None
+    paper = a.paper or sorted(glob.glob(os.path.join(proj, "paper", "*.pdf")))
 
     check_memory(mem, paper)
     check_agents(proj)
