@@ -138,3 +138,16 @@
 - Результат: функция расчёта КК — `kramers_kronig_beta()` в файле `src/kramers_kronig.py`.
 - Точка проверки: —
 - Итог проверки: принято — информация извлечена из INDEX.md без открытия дополнительных файлов.
+
+## 2026-10-16 — agents_unii.csv: агент × статья × UNII
+- Запрос агенту: извлечь агенты из 4 PDF, найти в IIR, собрать CSV.
+- Что сделал агент:
+  - Прочитал первые 5 страниц каждого PDF через pypdf.
+  - Извлёк агенты: glucose (Tuchin 2006, 2016), ethylene glycol (Tuchin 2016), glycerol (Wang 2001), propylene glycol (Wang 2001), DMSO (Gallwas 2015), PEG (Gallwas 2015).
+  - Прочитал IIR_OCOMM.xls (9071 запись, xlrd установлен).
+  - Поискал точные совпадения: glucose, ethylene glycol, glycerol — отсутствуют в IIR; propylene glycol → 6DC9Q167V3; dimethyl sulfoxide → YOW8V9698H; PEG 400 → B697894SGQ.
+  - Создан `review/agents_unii.csv` — 7 строк, все пары агент × статья.
+  - Создана задача `tasks/agents_unii.md`.
+- Результат: таблица готова, 3 агента NOT_FOUND.
+- Точка проверки: 7 строк, все пары из PDF присутствуют.
+- Итог проверки: принято — все 7 пар агент × статья на месте, UNII из IIR, отсутствующие отмечены.

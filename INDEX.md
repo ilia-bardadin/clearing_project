@@ -11,15 +11,15 @@
 - `promts` — папка с промтами.
 
 ## Статьи — только чтение
-- `paper/[Eng]_1_Ou_achieving-optical-transparency_2024.pdf` — Ou et al., Science 2024: КК, Eq. 1 и 6, Table 1 (β тартразина).
-- `paper/[Eng]_2_zhu_main-principal-toc_2021.pdf` — Yu et al., iScience 2021: обзор механизмов просветления; сжатие — в `memory/`.
-- `paper/[Eng]_2_zhu_main-principal-toc_2021.txt` — текст того же обзора; цитаты и страницы сверять по PDF.
+- `paper/1_Ou_achieving-optical-transparency_2024.pdf` — Ou et al., Science 2024: КК, Eq. 1 и 6, Table 1 (β тартразина).
+- `paper/2_zhu_main-principal-toc_2021.pdf` — Yu et al., iScience 2021: обзор механизмов просветления; сжатие — в `memory/`.
+- `paper/2_zhu_main-principal-toc_2021.txt` — текст того же обзора; цитаты и страницы сверять по PDF.
 - `paper/OCA_Tuchin_2019.pdf` — Tuchin, 2019: просветляющие агенты.
 - `paper/library/` — 4 статьи для обзора литературы:
-  - `paper/library/[Eng]_1_tuchin_glucose_2006.pdf` — склера кролика in vivo, глюкоза 40 %;
-  - `paper/library/[Eng]_2_tuchin_muscle_2016.pdf` — мышечная ткань;
-  - `paper/library/[Eng]_3_wang_hyperocmotic_2001.pdf` — гиперосмотические агенты, 2001;
-  - `paper/library/[Eng]_4_gallwas_oct-servical_2015.pdf` — ОКТ шейки матки, 2015.
+  - `paper/library/1_tuchin_glucose_2006.pdf` — склера кролика in vivo, глюкоза 40 %;
+  - `paper/library/2_tuchin_muscle_2016.pdf` — мышечная ткань;
+  - `paper/library/3_wang_hyperocmotic_2001.pdf` — гиперосмотические агенты, 2001;
+  - `paper/library/4_gallwas_oct-servical_2015.pdf` — ОКТ шейки матки, 2015.
 - `paper/parts/` — обзор Yu et al., нарезанный `cascade.sh` на 8 частей с метками [с. N].
 
 ## Сжатие статьи (память)
