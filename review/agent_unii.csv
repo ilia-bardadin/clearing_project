@@ -1,8 +1,8 @@
-агент,статья,UNII,примечание
-Глюкоза,Tuchin glucose 2006,IY9XDZ35W2,в базе как DEXTROSE (синоним)
-Глюкоза,Tuchin muscle 2016,IY9XDZ35W2,в базе как DEXTROSE (синоним)
-Этиленгликоль,Tuchin muscle 2016,,не найден в IIR_OCOMM.xls
-Глицерин,Wang hyperosmotic 2001,PDC6A3C0OX,в базе как GLYCERIN (синоним)
-Пропиленгликоль,Wang hyperosmotic 2001,6DC9Q167V3,
-DMSO,Gallwas OCT cervical 2015,YOW8V9698H,
-Полиэтиленгликоль 400,Gallwas OCT cervical 2015,B697894SGQ,в базе как POLYETHYLENE GLYCOL 400
+агент,статья,UNII,ткань,примечание
+Глюкоза,Tuchin glucose 2006,IY9XDZ35W2,Склера кролика,в базе как DEXTROSE (синоним)
+Глюкоза,Tuchin muscle 2016,IY9XDZ35W2,Мышца брюшной стенки крысы Wistar Han,в базе как DEXTROSE (синоним)
+Этиленгликоль,Tuchin muscle 2016,,Мышца брюшной стенки крысы Wistar Han,не найден в IIR_OCOMM.xls
+Глицерин,Wang hyperosmotic 2001,PDC6A3C0OX,Кожа крысы,в базе как GLYCERIN (синоним)
+Пропиленгликоль,Wang hyperosmotic 2001,6DC9Q167V3,Кожа крысы,
+DMSO,Gallwas OCT cervical 2015,YOW8V9698H,Эпителий шейки матки человека,
+Полиэтиленгликоль 400,Gallwas OCT cervical 2015,B697894SGQ,Эпителий шейки матки человека,в базе как POLYETHYLENE GLYCOL 400
