@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "5c421604539c694f",
+        "id": "2cbdb26c9f9cc795",
         "type": "tabs",
         "children": [
           {
-            "id": "e979da686949d4dd",
+            "id": "bc0ed46ce139ee82",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "file:/Users/ila/My_files/SHAD/AI_agents/week_5/artefacts/literature_block.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "literature_block"
+              "title": "Новая вкладка"
             }
           }
         ]
@@ -185,22 +181,35 @@
       "bases:Создать новую базу": false
     }
   },
-  "active": "e979da686949d4dd",
+  "active": "bc0ed46ce139ee82",
   "lastOpenFiles": [
-    "file:/Users/ila/My_files/SHAD/AI_agents/week_5/artefacts/CONNECT.md",
-    "graph_view.md",
-    "checks/check_week4.py",
-    "notes/Эпителий шейки матки человека.md",
-    "notes/Кожа крысы.md",
-    "notes/Мышца брюшной стенки крысы Wistar Han.md",
-    "notes/Склера кролика.md",
-    "tasks/Проверить таблицу с тканями.md",
-    "tasks/Добавить столбец ткань в таблицу.md",
-    "tasks/Определить типы тканей и создать заметки.md",
-    "tasks/Добавить типы тканей в таблицу агент-статья-UNII.md",
-    "file:/Users/ila/My_files/SHAD/AI_agents/week_4/artefacts/practice.md",
-    "memory/L1/part_04.md",
-    "paper/parts/part_03.md",
-    "Задача.md"
+    "file:/Users/ila/My_files/SHAD/AI_agents/week_5/artefacts/my_search_report.md",
+    "file:/Users/ila/My_files/SHAD/AI_agents/week_5/artefacts/EXPECTED.md",
+    "notes/Самопроверка недели 5.md",
+    "reports/my_search_report.md",
+    "reports",
+    "tasks/Записать итоги недели 5 в журнал проекта.md",
+    "tasks/Положить отчёт о поиске в reports.md",
+    "tasks/Сделать отчёт о поиске и запись в журнале.md",
+    "tasks/Получить формулу и PubChem CID глицерина из Wikidata.md",
+    "tasks/Найти обзоры в OpenAlex и записать источники.md",
+    "notes/Запрос 2026-10-18 glycerol Wikidata.md",
+    "ontology/Источник.md",
+    "notes/Ueda 2020.md",
+    "notes/Gómez-Gaviro 2020.md",
+    "notes/Tainaka 2016.md",
+    "notes/Richardson 2021.md",
+    "notes/Douglas S. Richardson.md",
+    "file:/Users/ila/My_files/SHAD/AI_agents/week_5/artefacts/literature_block.md",
+    "tasks/Собрать литературу к проекту.md",
+    "notes/Jakub Gołąb.md",
+    "notes/Leszek Kaczmarek.md",
+    "notes/Paweł Matryba.md",
+    "notes/Jorge Ripoll.md",
+    "notes/Daniel Sanderson.md",
+    "notes/María Victoria Gómez-Gaviro.md",
+    "notes/Katsuhiko Matsumoto.md",
+    "notes/Webster Guan.md",
+    "checks/check_week4.py"
   ]
 }
