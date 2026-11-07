@@ -43,7 +43,7 @@ def kk_beta(wavelength_nm: np.ndarray, alpha_M_inv: np.ndarray) -> np.ndarray:
     denom = w[None, :] * (1.0 - ratio**2)    # (n, n)
     with np.errstate(divide='ignore', invalid='ignore'):
         weights = np.where(np.eye(w.size, dtype=bool), 0.0, 1.0 / denom)
-    beta = h * (weights @ a)
+    beta = (2.0 / np.pi) * h * (weights @ a)
     return beta
 
 
