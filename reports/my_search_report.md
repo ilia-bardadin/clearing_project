@@ -1,6 +1,3 @@
----
-type: Отчет
----
 # Поиск по своей библиотеке: optical clearing agents skin diffusion
 
 [источник] OpenAlex, запрос: https://api.openalex.org/works?search=optical+clearing+agents+skin+diffusion&per_page=50&filter=has_abstract%3Atrue&select=id%2Cdoi%2Cdisplay_name%2Cpublication_year%2Ccited_by_count%2Cabstract_inverted_index, дата: 2026-10-18, работ: 20
@@ -56,7 +53,3 @@ type: Отчет
 [написано] Подходят обе выдачи: W1991332508 (глубина изображения в ОКТ) на первом месте у обеих и W1988116371 (лазерная терапия: винные пятна, удаление волос и татуировок) на третьем. Выдачи совпадают на 2 из 3 мест и различаются только вторым: у BM25 доставка агента лазером W2024433090, у вектора обзор W1570588423.
 
 Копия отчёта ячейки 14 ноутбука [[src/learning_code/search_lab.ipynb]] (исходный файл — [[src/learning_code/my_search_report.md]]).
-
-## Связи
-- тип: [[Отчет]]
-- выполняет: [[Положить отчёт о поиске в reports]]

@@ -8,48 +8,6 @@
   "collapse-color-groups": true,
   "colorGroups": [
     {
-      "query": "path:ontology",
-      "color": {
-        "a": 1,
-        "rgb": 9474192
-      }
-    },
-    {
-      "query": "[status:открыта OR \"в работе\" OR заблокирована]",
-      "color": {
-        "a": 1,
-        "rgb": 14254635
-      }
-    },
-    {
-      "query": "path:tasks",
-      "color": {
-        "a": 1,
-        "rgb": 16761685
-      }
-    },
-    {
-      "query": "[type:ПросветляющийАгент]",
-      "color": {
-        "a": 1,
-        "rgb": 10181046
-      }
-    },
-    {
-      "query": "[type:Ткань]",
-      "color": {
-        "a": 1,
-        "rgb": 15277667
-      }
-    },
-    {
-      "query": "[type:Эксперимент OR Расчёт OR Проверка]",
-      "color": {
-        "a": 1,
-        "rgb": 1153422
-      }
-    },
-    {
       "query": "path:notes OR path:review",
       "color": {
         "a": 1,
@@ -67,6 +25,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.8880095235268834,
+  "scale": 0.37741685511519113,
   "close": false
 }

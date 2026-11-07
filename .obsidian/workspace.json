@@ -11,13 +11,74 @@
             "id": "bc0ed46ce139ee82",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "file:/Users/ila/My_files/laboratory/LSS/Data/LSS_processing/reports/Послойная спектроскопия рассеяния с LCI.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "Новая вкладка"
+              "title": "Послойная спектроскопия рассеяния с LCI"
+            }
+          },
+          {
+            "id": "a1477f3ef64938bb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "file:/Users/ila/My_files/SHAD/AI_agents/archive/week_6/artefacts/practice.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "practice"
+            }
+          },
+          {
+            "id": "719a6b4e9ccf2699",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "file:/Users/ila/My_files/SHAD/AI_agents/archive/week_6/artefacts/practice.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "practice"
+            }
+          },
+          {
+            "id": "c502d336302a7b7a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "file:/Users/ila/My_files/SHAD/AI_agents/archive/week_6/artefacts/METHOD_TEMPLATE.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "METHOD_TEMPLATE"
+            }
+          },
+          {
+            "id": "488dd6b14a84e754",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "file:/Users/ila/Desktop/kk_simple/TASK.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "TASK"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -181,35 +242,35 @@
       "bases:Создать новую базу": false
     }
   },
-  "active": "bc0ed46ce139ee82",
+  "active": "719a6b4e9ccf2699",
   "lastOpenFiles": [
+    "file:/Users/ila/My_files/SHAD/AI_agents/archive/week_6/artefacts/METHOD_TEMPLATE.md",
+    "file:/Users/ila/My_files/SHAD/AI_agents/archive/week_6/artefacts/practice.md",
+    "file:/Users/ila/Desktop/kk_simple/TASK.md",
+    "promts/6-1_test-task.md",
+    "AGENTS copy.md",
+    "checks/beta_reference.csv",
+    "checks/verify.py",
+    "verify.py",
+    "stain_data/tartrazine_alpha.csv",
+    "stain_data/methylene_blue_alpha.csv",
+    "stain_data/indigo_carmine_alpha.csv",
+    "stain_data/fluorescein_alpha.csv",
+    "stain_data",
+    "METHOD.md",
+    "file:/Users/ila/Desktop/METHOD.md",
+    "file:/Users/ila/Desktop/agent/AGENTS.md",
+    "file:/Users/ila/Desktop/kk_simple/METHOD.md",
+    "file:/Users/ila/My_files/SHAD/AI_agents/archive/week_6/artefacts/HF_DATA.md",
+    "file:/Users/ila/My_files/SHAD/AI_agents/archive/week_6/artefacts/EXPECTED.md",
+    "METHOD_TEMPLATE.md",
+    "AGENTS_week_3.md",
+    "AGENTS.md",
+    "notes/Tainaka 2016.md",
     "file:/Users/ila/My_files/SHAD/AI_agents/week_5/artefacts/my_search_report.md",
     "file:/Users/ila/My_files/SHAD/AI_agents/week_5/artefacts/EXPECTED.md",
     "notes/Самопроверка недели 5.md",
     "reports/my_search_report.md",
-    "reports",
-    "tasks/Записать итоги недели 5 в журнал проекта.md",
-    "tasks/Положить отчёт о поиске в reports.md",
-    "tasks/Сделать отчёт о поиске и запись в журнале.md",
-    "tasks/Получить формулу и PubChem CID глицерина из Wikidata.md",
-    "tasks/Найти обзоры в OpenAlex и записать источники.md",
-    "notes/Запрос 2026-10-18 glycerol Wikidata.md",
-    "ontology/Источник.md",
-    "notes/Ueda 2020.md",
-    "notes/Gómez-Gaviro 2020.md",
-    "notes/Tainaka 2016.md",
-    "notes/Richardson 2021.md",
-    "notes/Douglas S. Richardson.md",
-    "file:/Users/ila/My_files/SHAD/AI_agents/week_5/artefacts/literature_block.md",
-    "tasks/Собрать литературу к проекту.md",
-    "notes/Jakub Gołąb.md",
-    "notes/Leszek Kaczmarek.md",
-    "notes/Paweł Matryba.md",
-    "notes/Jorge Ripoll.md",
-    "notes/Daniel Sanderson.md",
-    "notes/María Victoria Gómez-Gaviro.md",
-    "notes/Katsuhiko Matsumoto.md",
-    "notes/Webster Guan.md",
-    "checks/check_week4.py"
+    "reports"
   ]
 }
