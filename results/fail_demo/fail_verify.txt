@@ -1,0 +1,12 @@
+=== FAIL (без 2/pi), ветка exp-verifier-fail c9a5fb8 ===
+OK: входы и эталон — SHA-256, схема, сетки, значения
+OK: свойства на синтетических сетках 7, 17, 31 узел
+ОШИБКА: 
+Not equal to tolerance rtol=1e-07, atol=1e-09
+tartrazine: beta_min
+Mismatched elements: 1 / 1 (100%)
+Max absolute difference among violations: 0.08327791
+Max relative difference among violations: 0.57079633
+ ACTUAL: array(-0.229176)
+ DESIRED: array(-0.145898)
+exit=1

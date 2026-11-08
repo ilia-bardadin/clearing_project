@@ -45,10 +45,14 @@
   INGREDIENT_NAME, ROUTE, DOSAGE_FORM, CAS_NUMBER, UNII. Читается `pandas.read_excel` (нужен xlrd).
 
 ## Код
+- `checks/check_week6.py` — локальная копия самопроверки курса: `python3 checks/check_week6.py . --run`;
+  проверку beta запускать также напрямую, поскольку самопроверка может выбрать старую проверку обзора.
 - `checks/verify.py` — проверка эксперимента 6-1: `python3 checks/verify.py`;
   до реализации решения доступен режим `--inputs-only`.
 - `checks/beta_reference.csv` — фиксированные контрольные значения beta [M⁻¹].
-- Решение эксперимента 6-1 агент создаёт по заданию; путь и интерфейс заданы в `METHOD.md`.
+- `src/solution.py` — исправное решение эксперимента 6-1 из коммита 6810adc.
+- `src/estimate_runtime.py` — воспроизводимая оценка κ и времени по сохранённым замерам;
+  команда `python3 src/estimate_runtime.py --output results/runtime_estimate.json`.
 - `src/kramers_kronig.py` — расчёт β(λ) по КК: load_spectrum(), kramers_kronig_beta(), графики; CLI `--input <csv> --outdir <dir>`. Результат не принят, см. `STATUS.md`.
 - `src/check_week3.py` — самопроверка недели 3: сжатие, AGENTS.md, INDEX.md, git.
 - `checks/check_review.py` — проверка обзора: `python3 checks/check_review.py review/`.
@@ -58,6 +62,9 @@
   (модели поиска, неделя 5; запускать в `.venv-w5`); к проекту не относится.
 
 ## Результаты
+- `results/` — четыре спектра beta эксперимента 6-1, журналы и выводы проверок.
+- `results/benchmark.csv` — исходные замеры агента; `results/runtime_estimate.json` — оценка κ и прогноз.
+- `results/caught_error_before.txt`, `results/caught_error_after.txt` — сохранённые отказ и успех проверки.
 - `memory/1.3_03-10-2026_kk-result.csv` — β(λ) первого прогона КК (неверный: ошибка ~6 порядков).
 - `memory/1.1_03-10-2026_input-spectrum.png`, `memory/1.2_03-10-2026_kk-result.png` — графики того прогона.
 - `review/table.csv` — таблица работ: ткань, агент, концентрация, условия, коэффициент диффузии, DOI.

@@ -1,0 +1,57 @@
+{
+  "source": "results/benchmark.csv",
+  "source_sha256": "4916325014ef798d93caa2f9800e44340456a922d9f774ff39ca4dff4f7cd702",
+  "pair_selection": "smallest and largest node counts",
+  "selected_measurements": [
+    {
+      "dye": "methylene_blue",
+      "nodes": 301,
+      "seconds": 0.000268
+    },
+    {
+      "dye": "indigo_carmine",
+      "nodes": 1190,
+      "seconds": 0.004524
+    }
+  ],
+  "formula": "kappa = log(T2/T1) / log(N2/N1); T(N) = T2 * (N/N2)**kappa",
+  "kappa": 2.0559932402185606,
+  "predictions": [
+    {
+      "dye": "tartrazine",
+      "nodes": 587,
+      "predicted_seconds": 0.0010580837740415665,
+      "observed_seconds": 0.001119
+    },
+    {
+      "dye": "indigo_carmine",
+      "nodes": 1190,
+      "predicted_seconds": 0.004524,
+      "observed_seconds": 0.004524
+    },
+    {
+      "dye": "methylene_blue",
+      "nodes": 301,
+      "predicted_seconds": 0.00026799999999999995,
+      "observed_seconds": 0.000268
+    },
+    {
+      "dye": "fluorescein",
+      "nodes": 1001,
+      "predicted_seconds": 0.003170231775838447,
+      "observed_seconds": 0.001565
+    }
+  ],
+  "predicted_four_spectra_kernel_seconds": 0.009020315549880014,
+  "observed_four_spectra_kernel_seconds": 0.007476,
+  "predicted_full_verifier_kernel_seconds": 0.027077687392882868,
+  "verifier_call_counts": {
+    "per_real_spectrum": 3,
+    "per_synthetic_grid": 5
+  },
+  "limitations": [
+    "One measurement per size, on different dyes; no uncertainty interval.",
+    "Predictions cover kk_beta calls only, excluding startup, file IO and verification overhead.",
+    "An approximate model for the current workload, not a convergence order or a large-grid guarantee."
+  ]
+}

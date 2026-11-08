@@ -1,0 +1,9 @@
+=== FIX (с 2/pi), ветка master ===
+OK: входы и эталон — SHA-256, схема, сетки, значения
+OK: свойства на синтетических сетках 7, 17, 31 узел
+OK: tartrazine; max_abs_error=2.08166817117e-17 M^-1
+OK: indigo_carmine; max_abs_error=2.08166817117e-17 M^-1
+OK: methylene_blue; max_abs_error=5.55111512313e-17 M^-1
+OK: fluorescein; max_abs_error=1.11022302463e-16 M^-1
+ПРОЙДЕНО
+exit=0
