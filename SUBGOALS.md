@@ -68,14 +68,14 @@ pytest и hypothesis.
 
 | id | подцель | родитель | связь | верификатор | команда | статус |
 |---|---|---|---|---|---|---|
-| G0 | Все свойства и проверка их чувствительности выполнены | — | — | pytest, сборка G1–G6 | `python -B -m pytest -p no:cacheprovider checks_week7 -q` | открыта |
-| G1 | Форма, действительность и конечность результата | G0 | горизонталь | Hypothesis | `python -B -m pytest -p no:cacheprovider checks_week7 -k output -q` | открыта |
-| G2 | Нулевой вход, однородность, аддитивность | G0 | горизонталь | Hypothesis | `python -B -m pytest -p no:cacheprovider checks_week7 -k "zero or homogeneity or additivity" -q` | открыта |
-| G3 | Инвариантность при общем масштабе сетки | G0 | горизонталь | Hypothesis | `python -B -m pytest -p no:cacheprovider checks_week7 -k wavelength_scale -q` | открыта |
-| G4 | Диагональный вклад исключён | G0 | горизонталь | Hypothesis | `python -B -m pytest -p no:cacheprovider checks_week7 -k diagonal -q` | открыта |
-| G5 | Ответ для двух узлов совпадает с независимой формулой | G0 | горизонталь | аналитическая формула и Hypothesis | `python -B -m pytest -p no:cacheprovider checks_week7 -k two_nodes -q` | открыта |
-| G6 | Каждое свойство отклоняет предназначенного ему мутанта | G1–G5 | вертикаль: проверка проверок | hypothesis.find и те же условия проверки | `python -B -m pytest -p no:cacheprovider checks_week7 -k catches_mutation -q -rP` | открыта |
-| G7 | Сохранена приёмка на исходных четырёх спектрах | G0 | вертикаль: регрессия | неизменённый верификатор недели 6 | `python -B checks/verify.py` | открыта |
+| G0 | Все свойства и проверка их чувствительности выполнены | — | — | pytest, сборка G1–G6 | `python -B -m pytest -p no:cacheprovider checks_week7 -q` | закрыта |
+| G1 | Форма, действительность и конечность результата | G0 | горизонталь | Hypothesis | `python -B -m pytest -p no:cacheprovider checks_week7 -k output -q` | закрыта |
+| G2 | Нулевой вход, однородность, аддитивность | G0 | горизонталь | Hypothesis | `python -B -m pytest -p no:cacheprovider checks_week7 -k "zero or homogeneity or additivity" -q` | закрыта |
+| G3 | Инвариантность при общем масштабе сетки | G0 | горизонталь | Hypothesis | `python -B -m pytest -p no:cacheprovider checks_week7 -k wavelength_scale -q` | закрыта |
+| G4 | Диагональный вклад исключён | G0 | горизонталь | Hypothesis | `python -B -m pytest -p no:cacheprovider checks_week7 -k diagonal -q` | закрыта |
+| G5 | Ответ для двух узлов совпадает с независимой формулой | G0 | горизонталь | аналитическая формула и Hypothesis | `python -B -m pytest -p no:cacheprovider checks_week7 -k two_nodes -q` | закрыта |
+| G6 | Каждое свойство отклоняет предназначенного ему мутанта | G1–G5 | вертикаль: проверка проверок | hypothesis.find и те же условия проверки | `python -B -m pytest -p no:cacheprovider checks_week7 -k catches_mutation -q -rP` | закрыта |
+| G7 | Сохранена приёмка на исходных четырёх спектрах | G0 | вертикаль: регрессия | неизменённый верификатор недели 6 | `python -B checks/verify.py` | закрыта |
 
 ## Организация работы
 
@@ -83,8 +83,7 @@ pytest и hypothesis.
 - Новые тесты размещаются в checks_week7/.
 - Использование checks_week7/ вместо checks/ — явное отклонение от пути
   в учебном шаблоне из-за действующего запрета изменять checks/.
-- Независимую подцель G5 предполагается поручить вспомогательному агенту.
-  Пока такое поручение не выполнялось.
+- Независимую подцель G5 поручено вспомогательному агенту. Отчёт и выводы перенесены в `results/`.
 - Каждая попытка записывается в ATTEMPTS.md.
 - После трёх неудачных попыток на одной подцели применяется правило
   трёх попыток: изменение плана фиксируется отдельной записью.

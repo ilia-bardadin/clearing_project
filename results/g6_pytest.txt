@@ -1,0 +1,23 @@
+============================= test session starts ==============================
+platform darwin -- Python 3.14.5, pytest-9.2.0, pluggy-1.7.0 -- /Users/ila/My_files/SHAD/AI_agents/clearing_project/.venv/bin/python
+hypothesis profile 'default'
+rootdir: /Users/ila/My_files/SHAD/AI_agents/clearing_project_g6
+plugins: hypothesis-6.170.15, platformdirs-4.13.0, anyio-4.15.1
+collecting ... collected 14 items / 7 deselected / 7 selected
+
+checks_week7/test_kk_properties.py::test_property_catches_mutation[zero] mutant_offset: (array([200., 201.]), array([0., 0.]))
+PASSED
+checks_week7/test_kk_properties.py::test_property_catches_mutation[homogeneity] mutant_nonlinear: (array([200., 201.]), array([0., 1.]), -1)
+PASSED
+checks_week7/test_kk_properties.py::test_property_catches_mutation[additivity] mutant_nonadditive: (array([200., 201.]), array([0., 1.]), array([1., 0.]))
+PASSED
+checks_week7/test_kk_properties.py::test_property_catches_mutation[wavelength_scale] mutant_wrong_step: (array([200., 201.]), array([0., 1.]), 0.001)
+PASSED
+checks_week7/test_kk_properties.py::test_property_catches_mutation[diagonal] mutant_diagonal: (array([200., 201.]), 0, 1.0)
+PASSED
+checks_week7/test_kk_properties.py::test_property_catches_mutation[two_nodes] mutant_prefactor: (array([200., 201.]), array([0., 1.]))
+PASSED
+checks_week7/test_kk_properties.py::test_property_catches_mutation[output] mutant_shape: (array([200., 201.]), array([0., 0.]))
+PASSED
+
+======================= 7 passed, 7 deselected in 1.74s ========================
