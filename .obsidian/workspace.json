@@ -8,26 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "bc0ed46ce139ee82",
+            "id": "ec3e165f4e2f5a3b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "file:/Users/ila/My_files/laboratory/LSS/Data/LSS_processing/reports/Послойная спектроскопия рассеяния с LCI.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Послойная спектроскопия рассеяния с LCI"
-            }
-          },
-          {
-            "id": "a1477f3ef64938bb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "file:/Users/ila/My_files/SHAD/AI_agents/archive/week_6/artefacts/practice.md",
+                "file": "file:/Users/ila/My_files/SHAD/AI_agents/archive/week_7/artefacts/practice.md",
                 "mode": "source",
                 "source": false
               },
@@ -36,45 +22,31 @@
             }
           },
           {
-            "id": "719a6b4e9ccf2699",
+            "id": "986ffd87948231c9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "file:/Users/ila/My_files/SHAD/AI_agents/archive/week_6/artefacts/practice.md",
+                "file": "file:/Users/ila/My_files/SHAD/AI_agents/archive/week_7/artefacts/SUBGOALS_TEMPLATE.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "SUBGOALS_TEMPLATE"
+            }
+          },
+          {
+            "id": "ed18b0754c3cfdd0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "file:/Users/ila/My_files/SHAD/AI_agents/archive/week_7/artefacts/practice.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
               "title": "practice"
-            }
-          },
-          {
-            "id": "c502d336302a7b7a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "file:/Users/ila/My_files/SHAD/AI_agents/archive/week_6/artefacts/METHOD_TEMPLATE.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "METHOD_TEMPLATE"
-            }
-          },
-          {
-            "id": "488dd6b14a84e754",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "file:/Users/ila/Desktop/kk_simple/TASK.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "TASK"
             }
           }
         ],
@@ -242,8 +214,12 @@
       "bases:Создать новую базу": false
     }
   },
-  "active": "719a6b4e9ccf2699",
+  "active": "ed18b0754c3cfdd0",
   "lastOpenFiles": [
+    "file:/Users/ila/My_files/SHAD/AI_agents/archive/week_7/artefacts/practice.md",
+    "SUBGOALS.md",
+    "checks_week7/test_kk_properties.py",
+    "checks_week7",
     "checks/check_week6.py",
     "results/caught_error_after.txt",
     "results/caught_error_before.txt",
@@ -252,9 +228,6 @@
     "src/solution.py",
     "results/fail_demo/fix_verify.txt",
     "results/fail_demo/fail_verify.txt",
-    "results/fail_demo",
-    "results/benchmark.csv",
-    "results/tartrazine_beta.csv",
     "file:/Users/ila/My_files/SHAD/AI_agents/archive/week_6/artefacts/METHOD_TEMPLATE.md",
     "file:/Users/ila/My_files/SHAD/AI_agents/archive/week_6/artefacts/practice.md",
     "file:/Users/ila/Desktop/kk_simple/TASK.md",
@@ -278,7 +251,6 @@
     "notes/Tainaka 2016.md",
     "file:/Users/ila/My_files/SHAD/AI_agents/week_5/artefacts/my_search_report.md",
     "file:/Users/ila/My_files/SHAD/AI_agents/week_5/artefacts/EXPECTED.md",
-    "notes/Самопроверка недели 5.md",
-    "reports/my_search_report.md"
+    "notes/Самопроверка недели 5.md"
   ]
 }
